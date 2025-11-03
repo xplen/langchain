@@ -12,6 +12,7 @@ from langchain_classic.retrievers.contextual_compression import (
     ContextualCompressionRetriever,
 )
 from langchain_classic.retrievers.ensemble import EnsembleRetriever
+from langchain_classic.retrievers.hybrid import HybridRetriever
 from langchain_classic.retrievers.merger_retriever import MergerRetriever
 from langchain_classic.retrievers.multi_query import MultiQueryRetriever
 from langchain_classic.retrievers.multi_vector import MultiVectorRetriever
@@ -139,6 +140,7 @@ __all__ = [
     "GoogleDocumentAIWarehouseRetriever",
     "GoogleVertexAIMultiTurnSearchRetriever",
     "GoogleVertexAISearchRetriever",
+    "HybridRetriever",
     "KNNRetriever",
     "KayAiRetriever",
     "LlamaIndexGraphRetriever",
